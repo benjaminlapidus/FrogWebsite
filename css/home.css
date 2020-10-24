@@ -1,0 +1,15 @@
+.inner-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 25px;
+}
+
+/*
+Media Query - Smaller Devices
+*/
+
+@media (max-width: 500px) {
+	.inner-container {display: block;}
+	}
+}
+

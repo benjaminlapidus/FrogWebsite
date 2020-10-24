@@ -1,0 +1,56 @@
+/*
+Exact formatting style taken from example content on course documentation page.
+I did not create it.
+*/
+.menu ul {
+	margin: 0px;
+	padding-left: 0px;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+
+.menu a {
+	display: block;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #333333;
+
+}
+
+.menu a.is-current {
+	color: #555555; 
+	background-color: #f0cf65;
+
+}
+
+
+.menu a:hover {
+	color: #ffffff; 
+	background-color: #f0cf65;
+}
+
+.menu li:hover {
+	background-color: #f0cf65;
+}
+
+.menu li {
+
+	font-weight: bold;
+	background: #ddedaa;
+	border-style: solid;
+	border-radius: 20px;
+	border-color: #f0cf65;
+	border-width: 10px;
+	margin: 0px 10px 0px 10px;
+}
+
+/*
+Media Query - Smaller Devices
+*/
+
+@media (max-width: 500px) {
+	.menu ul {display: block;}
+	.menu li {margin: 5px 10px 5px 10px;
+	}
+}
